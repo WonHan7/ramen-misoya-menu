@@ -1,0 +1,46 @@
+/* IMPORT FONTS HERE */
+
+/* Format */
+a {
+    text-decoration: none;
+    color: white;
+}
+a:link, a:hover, a:visited, a:active {
+    /* Link Styling */
+}
+
+/* Class */
+.navbar {
+    overflow: hidden;
+    color: white;
+}
+.navbar a {
+    display: block;
+    padding-bottom: 10px;
+}
+.navbar a:hover {    
+    color: orange;
+}
+.subnav {
+    overflow: hidden;
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+.subnav-p {
+    margin: 0;
+    padding: 10px 0;
+}
+.subnav-content {
+    display: none;
+    z-index: 1;
+}
+.subnav-content a {
+    display: block;
+    padding-bottom: 10px;
+}
+.subnav-content a:hover {
+    color: orange;
+}
+
+/* Desktop */
