@@ -4,7 +4,13 @@ import './MenuItems.css'
 function Toppings () {
     return (
         <div>
-            {/* Content */}
+            {/* HEADER */}
+            <hr className='dashed' />
+            <h1>Ramen Toppings</h1>
+                {/* Deep Fried ITEMS */}
+                <div className='grid-menu'>
+                    {/* Ask about layout */}
+                </div>
         </div>
     );
 }

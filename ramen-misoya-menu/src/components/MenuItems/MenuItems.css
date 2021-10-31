@@ -10,5 +10,28 @@ div {
     margin-top: -10px;
     font-size: 10px;
 }
+.dashed {
+    border-top: 1px dashed white;
+}
+
+/* Grid */
+.grid-menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.grid-img {
+    grid-column: 1/2;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+.grid-desc {
+    grid-column: 2/3;
+    text-align: left;
+}
+.grid-price {
+    grid-column: 3/4;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
 
 /* Desktop */
