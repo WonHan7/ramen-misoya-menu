@@ -9,22 +9,10 @@
 
 /* Grid */
 .footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0 20px;
     background-color: orange;
 }
-.hours {
-    grid-column: 1/2;
-}
-.location {
-    grid-column: 2/3;
-}
-.contact {
-    grid-column: 3/4;
-}
 .social {
-    grid-column: 4/5;
+    padding-bottom: 5px;
 }
 
 /* Desktop */

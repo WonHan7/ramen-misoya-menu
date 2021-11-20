@@ -7,6 +7,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <br />
+      <img src={`${process.env.PUBLIC_URL}/assets/logo.png`} alt="Green Salad" width="100px" />
       <NavBar />
       <Menu />
       <Footer />

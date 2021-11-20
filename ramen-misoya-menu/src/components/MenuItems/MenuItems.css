@@ -6,32 +6,64 @@ div {
 }
 
 /* Class */
-.desc {
-    margin-top: -10px;
-    font-size: 10px;
-}
 .dashed {
-    border-top: 1px dashed white;
+    /* border-top: 1px dotted white; */
+    overflow: visible; /* For IE */
+    padding: 0;
+    margin-top: 50px;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+.dashed::after {
+    /* content: "🎅"; */
+    /* content: "ℝ𝕄"; */
+    content: "尺爪";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: black;
 }
 
 /* Grid */
 .grid-menu {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    gap: 0 17.5px;
 }
 .grid-img {
+    display: flex;
     grid-column: 1/2;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 8.75px;
+
+    height: 80%;
+    width: 80%;
 }
 .grid-desc {
     grid-column: 2/3;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    /* Style */
     text-align: left;
+    font-size: 0.5em;
 }
 .grid-price {
     grid-column: 3/4;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 8.75px;
+    font-size: 0.5em;
 }
 
 /* Desktop */
+@media screen and ( min-width : 800px ) {
+    .grid-desc {
+        font-size: 30px;
+    }
+}
