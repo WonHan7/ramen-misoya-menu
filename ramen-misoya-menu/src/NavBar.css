@@ -20,6 +20,7 @@ a:link, a:hover, a:visited, a:active {
 }
 .navbar a:hover {    
     color: orange;
+    transition: all 1s;
 }
 .subnav {
     overflow: hidden;

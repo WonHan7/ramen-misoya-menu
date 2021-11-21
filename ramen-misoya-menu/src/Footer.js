@@ -27,7 +27,7 @@ function Footer () {
             <div className='contact'>
                 <h1 className='head'>CONTACT</h1>
                 <p>
-                    (780) 425-2990
+                    (780) 425-2990<br />
                     EMAIL
                 </p>
             </div>
