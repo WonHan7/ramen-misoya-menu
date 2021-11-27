@@ -32,9 +32,9 @@ function Beverages () {
                     </div>
                     <div className='grid-price'>$3.95</div>
 
-                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/salads/meat.png`} alt="Canned Pop" className='image-dim' /></div>
+                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/`} alt="Canned Pop" className='image-dim' /></div>
                     <div className='grid-desc'>
-                        <h3>BE3. Calpico (500ml)</h3>
+                        <h3>BE3. Canned Pop (355ml)</h3>
                         <p>
                             • Coke (Original, Diet) <br />
                             • Nestea Iced Tea <br /> 
@@ -45,7 +45,7 @@ function Beverages () {
                     </div>
                     <div className='grid-price'>$2.75</div>
 
-                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/salads/meat.png`} alt="Oi Ocha" className='image-dim' /></div>
+                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/`} alt="Oi Ocha" className='image-dim' /></div>
                     <div className='grid-desc'>
                         <h3>BE4. Oi Ocha</h3>
                         <p>
@@ -54,19 +54,19 @@ function Beverages () {
                     </div>
                     <div className='grid-price'>$3.75</div>
 
-                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/salads/meat.png`} alt="Hot Green Tea" className='image-dim' /></div>
+                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/`} alt="Hot Green Tea" className='image-dim' /></div>
                     <div className='grid-desc center'>
                         <h3>BE5. Hot Green Tea</h3>
                     </div>
                     <div className='grid-price'>$1.50</div>
 
-                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/salads/meat.png`} alt="Dasani" className='image-dim' /></div>
+                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/`} alt="Dasani" className='image-dim' /></div>
                     <div className='grid-desc center'>
                         <h3>BE6. Dasani</h3>
                     </div>
                     <div className='grid-price'>$2.85</div>
 
-                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/salads/meat.png`} alt="S. Pellegrino" className='image-dim' /></div>
+                    <div className='grid-img'><img src={`${process.env.PUBLIC_URL}/assets/`} alt="S. Pellegrino" className='image-dim' /></div>
                     <div className='grid-desc center'>
                         <h3>BE7. S. Pellegrino</h3>
                     </div>
