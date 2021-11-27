@@ -11,7 +11,7 @@ function Footer () {
                     SUN-THU<br />
                     11:30 – 21:00<br />
                     FRI-SAT<br />
-                    11:30 – 21:45<br />
+                    11:30 – 22:00<br />
                 </p>
             </div>
             {/* Location */}

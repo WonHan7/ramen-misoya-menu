@@ -40,30 +40,70 @@ div {
     margin-top: auto;
     margin-bottom: auto;
     padding-left: 8.75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 100%;
+}
+.image-dim {
+    min-height: 62.5px;
+    max-height: 85px;
+
+    min-width: 100px;
+    max-width: 100px;
+
+    border: 1px solid white;
+}
+.center {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .grid-desc {
     grid-column: 2/3;
-    margin-top: auto;
-    margin-bottom: auto;
 
     /* Style */
     text-align: left;
-    font-size: 0.5em;
+    font-size: 9px;
 }
 .grid-price {
     grid-column: 3/4;
     margin-top: auto;
     margin-bottom: auto;
     padding-right: 8.75px;
-    font-size: 0.5em;
+    font-size: 9px;
+}
+.topping-menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 0 10px;
+}
+.header-desc {
+    font-size: 9px;
 }
 
 /* Desktop */
 @media screen and ( min-width : 800px ) {
     .grid-desc {
-        font-size: 30px;
+        font-size: 17.5px;
+    }
+    .grid-img {    
+        padding-left: 8.75px;
+
+        height: 90%;
+        width: 100%;
+    }
+    .image-dim {
+        min-height: 135px;
+        max-height: 155px;
+
+        min-width: 225px;
+        max-width: 225px;
+    }
+    .grid-price {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-right: 8.75px;
+        font-size: 1em;
     }
 }
